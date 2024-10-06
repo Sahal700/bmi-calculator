@@ -1,0 +1,38 @@
+
+#bar{
+  position: relative;
+}
+#pointer{
+  width: 8px;
+  position: absolute;
+  bottom: 0px;
+  border-bottom:10px solid white;
+  border-left: 7px solid rgba(0, 0, 0, 0);
+  border-right: 7px solid rgba(0, 0, 0, 0);
+  transform: translateX(-5px);
+  transition: left 0.5s ease-in-out;
+  z-index: 3;
+}
+.bardata{
+  font-size: x-small;
+}
+#start{
+  position: absolute;
+  left: -10px;
+  bottom: -18px;
+  color: black;
+  font-size: smaller;
+}
+#end{
+  position: absolute;
+  right: -10px;
+  bottom: -18px;
+  color:black;
+  font-size: smaller;
+}
+#second{
+  background-color: #60e1df00;
+}
+#first{
+  background-color: #35d99500;
+}
